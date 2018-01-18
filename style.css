@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #ffaf36;
+  text-align: center;
+}
+
+body h1 {
+  font-size: 3.5rem;
+  padding-top: 15vh;
+}
+
+.containeer {
+  width: 60%;
+  padding: 1em;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 3rem;
+  padding-top: 3rem;
+  font-family: 'Dancing Script';
+}
+
+.containeer h3 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-right: 5%;
+  font-family: 'Lobster';
+  align-self: flex-end;
+}
+.foter{
+  padding-top: 1.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#new{
+  position: absolute;
+  right: 1rem;
+}
+
+.button{
+  font-size: 2em;
+  text-decoration: none;
+  color: rgb(255, 175, 54);
+  background-color: rgba(255, 175, 54, 0.3);
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button:hover{
+  background-color: #ffaf36;
+  color: white;
+}
